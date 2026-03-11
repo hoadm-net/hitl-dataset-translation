@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Large database files
+data/spider/database/
+data/spider/test_database/
+data/bird/train/train_databases.zip
+data/bird/dev/dev_databases.zip
+data/bird/train/train_databases/
+data/bird/dev/dev_databases/
+
+# Model weights
+models/
+
+# Results and outputs
+results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
