@@ -1,0 +1,23 @@
+# Core
+openai>=1.30.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+pyyaml>=6.0.1
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Translation quality — LaBSE semantic similarity
+sentence-transformers>=3.0.0
+torch>=2.2.0
+
+# Fine-tuning (Phase 4 & 5)
+transformers>=4.40.0
+peft>=0.10.0
+datasets>=2.19.0
+accelerate>=0.29.0
+bitsandbytes>=0.43.0
+
+# Label Studio annotation parsing (Phase 2)
+label-studio-sdk>=0.9.0

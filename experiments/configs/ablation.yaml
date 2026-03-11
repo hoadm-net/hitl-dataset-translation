@@ -1,0 +1,41 @@
+# Ablation experiment configuration
+# Research Question 2: What is the minimum seed ratio needed to bootstrap
+# high-quality LLM translation?
+#
+# Each (dataset, seed_ratio, seed_strategy) combination is run n_runs times
+# with different random seeds to estimate variance from sampling luck.
+
+datasets:
+  - spider
+  - bird
+
+# Seed ratios to evaluate (fraction of training set translated manually)
+seed_ratios:
+  - 0.00   # baseline: zero-shot GPT, no human seed
+  - 0.01
+  - 0.02
+  - 0.05
+  - 0.10
+  - 0.15
+  - 0.20
+  - 0.25
+
+# Sampling strategies for seed selection
+seed_strategies:
+  - random             # uniform random sampling
+  - stratified         # stratified by SQL operator pattern signature
+
+# Number of independent runs per (dataset, ratio, strategy) combination
+# to estimate variance due to random seed selection
+n_runs: 3
+
+# Quality thresholds
+labse_threshold: 0.85   # minimum LaBSE score to accept a translation
+
+# GPT settings
+gpt_model: gpt-4o-mini
+gpt_temperature: 0.3
+few_shot_k: 5           # number of few-shot examples per translation call
+
+# Output root
+output_dir: results/ablation
