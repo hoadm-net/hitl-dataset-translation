@@ -1,0 +1,111 @@
+{
+  "dataset": "bird",
+  "train_n": 9428,
+  "all_strata": 10,
+  "splits": [
+    {
+      "label": "train (full)",
+      "n": 9428,
+      "unique_dbs": 69,
+      "difficulty_distribution": {
+        "moderate": 8597,
+        "simple": 726,
+        "challenging": 105
+      },
+      "unique_strata": 10,
+      "evidence_nonempty": 8783,
+      "evidence_ratio": 0.9316
+    },
+    {
+      "label": "pool_greedy (45%)",
+      "n": 4243,
+      "unique_dbs": 69,
+      "difficulty_distribution": {
+        "moderate": 3891,
+        "simple": 307,
+        "challenging": 45
+      },
+      "unique_strata": 10,
+      "evidence_nonempty": 4002,
+      "evidence_ratio": 0.9432
+    },
+    {
+      "label": "L1_greedy",
+      "n": 472,
+      "unique_dbs": 69,
+      "difficulty_distribution": {
+        "moderate": 410,
+        "simple": 58,
+        "challenging": 4
+      },
+      "unique_strata": 10,
+      "evidence_nonempty": 440,
+      "evidence_ratio": 0.9322
+    },
+    {
+      "label": "L2_greedy",
+      "n": 943,
+      "unique_dbs": 69,
+      "difficulty_distribution": {
+        "moderate": 866,
+        "simple": 68,
+        "challenging": 9
+      },
+      "unique_strata": 10,
+      "evidence_nonempty": 884,
+      "evidence_ratio": 0.9374
+    },
+    {
+      "label": "L3_greedy",
+      "n": 1415,
+      "unique_dbs": 69,
+      "difficulty_distribution": {
+        "moderate": 1299,
+        "simple": 103,
+        "challenging": 13
+      },
+      "unique_strata": 10,
+      "evidence_nonempty": 1322,
+      "evidence_ratio": 0.9343
+    },
+    {
+      "label": "L4_greedy",
+      "n": 1886,
+      "unique_dbs": 69,
+      "difficulty_distribution": {
+        "moderate": 1733,
+        "simple": 136,
+        "challenging": 17
+      },
+      "unique_strata": 10,
+      "evidence_nonempty": 1770,
+      "evidence_ratio": 0.9385
+    },
+    {
+      "label": "L5_greedy",
+      "n": 2357,
+      "unique_dbs": 69,
+      "difficulty_distribution": {
+        "moderate": 2173,
+        "simple": 163,
+        "challenging": 21
+      },
+      "unique_strata": 10,
+      "evidence_nonempty": 2208,
+      "evidence_ratio": 0.9368
+    },
+    {
+      "label": "remaining (55%)",
+      "n": 5185,
+      "unique_dbs": 57,
+      "difficulty_distribution": {
+        "moderate": 4706,
+        "simple": 419,
+        "challenging": 60
+      },
+      "unique_strata": 10,
+      "evidence_nonempty": 4781,
+      "evidence_ratio": 0.9221
+    }
+  ]
+}

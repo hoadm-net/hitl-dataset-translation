@@ -2,40 +2,70 @@
 # Research Question 2: What is the minimum seed ratio needed to bootstrap
 # high-quality LLM translation?
 #
-# Each (dataset, seed_ratio, seed_strategy) combination is run n_runs times
-# with different random seeds to estimate variance from sampling luck.
+# Dataset partition (fixed, determined once in Phase 1):
+#   pool      (45%) = seed (L5, 25%) + remaining_pool (20%)
+#   remaining (55%) = translated by fine-tuned open-source model
+#
+# At each round k, the pool is split:
+#   manual = L_k  (5k%)        ← human-annotated, used as GPT few-shot context
+#   GPT    = Pool \ L_k        ← GPT translates using L_k as few-shot
+#   Fine-tune data = manual + GPT = Pool = 45%  (constant across all rounds)
+#
+# Round | Manual | GPT  | Fine-tune | Remaining
+#   0   |   0%   | 45%  |    45%    |    55%    ← zero-shot baseline
+#   1   |   5%   | 40%  |    45%    |    55%
+#   2   |  10%   | 35%  |    45%    |    55%
+#   3   |  15%   | 30%  |    45%    |    55%
+#   4   |  20%   | 25%  |    45%    |    55%
+#   5   |  25%   | 20%  |    45%    |    55%
 
 datasets:
   - spider
   - bird
 
-# Seed ratios to evaluate (fraction of training set translated manually)
+# Seed ratios (fraction of train manually annotated per round)
 seed_ratios:
-  - 0.00   # baseline: zero-shot GPT, no human seed
-  - 0.01
-  - 0.02
-  - 0.05
-  - 0.10
-  - 0.15
-  - 0.20
-  - 0.25
+  - 0.00   # round 0: zero-shot GPT baseline
+  - 0.05   # round 1: L1
+  - 0.10   # round 2: L2
+  - 0.15   # round 3: L3
+  - 0.20   # round 4: L4
+  - 0.25   # round 5: L5
 
-# Sampling strategies for seed selection
+# Total pool ratio (manual + GPT, used for fine-tuning open-source model)
+# Must be constant across rounds to control for data quantity.
+pool_ratio: 0.45
+
+# Sampling strategies
 seed_strategies:
-  - random             # uniform random sampling
-  - stratified         # stratified by SQL operator pattern signature
+  - greedy   # greedy maximum coverage over sql_class strata — primary
+  - random   # uniform random sampling — baseline
 
-# Number of independent runs per (dataset, ratio, strategy) combination
-# to estimate variance due to random seed selection
-n_runs: 3
+# Independent random baseline runs (to estimate sampling variance)
+n_runs_random: 3
+n_runs_greedy: 1   # deterministic
 
 # Quality thresholds
-labse_threshold: 0.85   # minimum LaBSE score to accept a translation
+labse_threshold: 0.85   # minimum LaBSE score to accept a GPT translation
 
 # GPT settings
 gpt_model: gpt-4o-mini
 gpt_temperature: 0.3
-few_shot_k: 5           # number of few-shot examples per translation call
+few_shot_k: 5           # number of few-shot examples per GPT call
+
+# Phase 5: Downstream Text-to-SQL evaluation
+# Fine-tune a multilingual NL2SQL model on EN and VI train data (same hyperparameters).
+# Evaluate on dev set. Compare EM and Execution Accuracy.
+eval_model: Qwen2.5-Coder-7B-Instruct
+eval_metrics:
+  spider:
+    - exact_match           # EM (structural match, ignoring values)
+    - execution_accuracy    # EX (result set comparison)
+    - breakdown_by_hardness # easy / medium / hard / extra hard
+  bird:
+    - execution_accuracy    # EX — primary
+    - ves                   # Valid Efficiency Score — secondary
+    - breakdown_by_difficulty  # simple / moderate / challenging
 
 # Output root
 output_dir: results/ablation

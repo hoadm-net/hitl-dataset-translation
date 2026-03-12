@@ -9,6 +9,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -21,6 +22,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -33,6 +35,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -45,6 +48,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -60,6 +64,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -75,6 +80,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -88,6 +94,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -101,6 +108,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -114,6 +122,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -127,6 +136,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -140,6 +150,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -153,6 +164,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -166,6 +178,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -179,6 +192,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -192,6 +206,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -205,6 +220,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -217,6 +233,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -230,6 +247,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -243,6 +261,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -256,6 +275,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -269,6 +289,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -282,6 +303,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -296,6 +318,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -310,6 +333,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -327,6 +351,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -344,6 +369,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -359,6 +385,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -374,6 +401,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -388,6 +416,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -402,6 +431,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -415,6 +445,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -429,6 +460,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -443,6 +475,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -457,6 +490,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -471,6 +505,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -485,6 +520,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -499,6 +535,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -512,6 +549,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -525,6 +563,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -538,6 +577,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -551,6 +591,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -565,6 +606,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -579,6 +621,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -594,6 +637,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -609,6 +653,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -622,6 +667,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -635,6 +681,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -648,6 +695,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -661,6 +709,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -674,6 +723,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -687,6 +737,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -701,6 +752,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -715,6 +767,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -729,6 +782,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -743,6 +797,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -756,6 +811,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -769,6 +825,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -783,6 +840,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -797,6 +855,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -811,6 +870,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -825,6 +885,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -840,6 +901,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -855,6 +917,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -869,6 +932,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -883,6 +947,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -898,6 +963,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -913,6 +979,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -926,6 +993,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -939,6 +1007,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -951,6 +1020,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -963,6 +1033,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -977,6 +1048,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -991,6 +1063,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1004,6 +1077,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1017,6 +1091,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1030,6 +1105,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1043,6 +1119,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1056,6 +1133,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1069,6 +1147,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1083,6 +1162,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1097,6 +1177,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1112,6 +1193,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -1127,6 +1209,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -1140,6 +1223,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1153,6 +1237,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1168,6 +1253,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -1183,6 +1269,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -1195,6 +1282,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1207,6 +1295,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1221,6 +1310,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1235,6 +1325,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1247,6 +1338,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1259,6 +1351,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1273,6 +1366,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1287,6 +1381,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1301,6 +1396,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -1315,6 +1411,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -1329,6 +1426,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -1343,6 +1441,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -1357,6 +1456,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1371,6 +1471,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1385,6 +1486,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -1399,6 +1501,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -1413,6 +1516,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1427,6 +1531,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1441,6 +1546,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1455,6 +1561,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1471,6 +1578,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1487,6 +1595,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1501,6 +1610,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1515,6 +1625,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1528,6 +1639,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1541,6 +1653,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1555,6 +1668,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1569,6 +1683,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1583,6 +1698,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1597,6 +1713,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1610,6 +1727,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1623,6 +1741,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1636,6 +1755,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1649,6 +1769,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1660,6 +1781,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -1671,6 +1793,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -1686,6 +1809,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -1701,6 +1825,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -1714,6 +1839,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1727,6 +1853,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1740,6 +1867,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1753,6 +1881,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1769,6 +1898,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -1785,6 +1915,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -1800,6 +1931,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -1815,6 +1947,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -1829,6 +1962,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -1843,6 +1977,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -1856,6 +1991,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1869,6 +2005,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1883,6 +2020,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1897,6 +2035,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -1910,6 +2049,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1923,6 +2063,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1938,6 +2079,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1953,6 +2095,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -1966,6 +2109,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1979,6 +2123,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -1992,6 +2137,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2005,6 +2151,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2019,6 +2166,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2033,6 +2181,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2048,6 +2197,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -2063,6 +2213,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -2077,6 +2228,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2091,6 +2243,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2105,6 +2258,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2119,6 +2273,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2132,6 +2287,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -2145,6 +2301,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -2160,6 +2317,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -2175,6 +2333,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -2190,6 +2349,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -2205,6 +2365,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -2220,6 +2381,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -2235,6 +2397,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -2248,6 +2411,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2261,6 +2425,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2276,6 +2441,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -2291,6 +2457,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -2305,6 +2472,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -2319,6 +2487,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -2332,6 +2501,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2345,6 +2515,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2359,6 +2530,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2373,6 +2545,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2386,6 +2559,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -2399,6 +2573,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -2415,6 +2590,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -2431,6 +2607,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -2448,6 +2625,7 @@
       "UNION",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -2465,6 +2643,7 @@
       "UNION",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -2477,6 +2656,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2489,6 +2669,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2501,6 +2682,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2513,6 +2695,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2525,6 +2708,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2537,6 +2721,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2549,6 +2734,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2561,6 +2747,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2573,6 +2760,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2585,6 +2773,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2597,6 +2786,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2609,6 +2799,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2621,6 +2812,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2633,6 +2825,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2645,6 +2838,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2657,6 +2851,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2670,6 +2865,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2683,6 +2879,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2695,6 +2892,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2707,6 +2905,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2719,6 +2918,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2731,6 +2931,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2743,6 +2944,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2755,6 +2957,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -2768,6 +2971,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2781,6 +2985,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2794,6 +2999,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2807,6 +3013,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -2821,6 +3028,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2835,6 +3043,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2849,6 +3058,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2863,6 +3073,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2877,6 +3088,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2891,6 +3103,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2905,6 +3118,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2919,6 +3133,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2933,6 +3148,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2947,6 +3163,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2961,6 +3178,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2975,6 +3193,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -2989,6 +3208,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3003,6 +3223,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3019,6 +3240,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3035,6 +3257,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3051,6 +3274,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3067,6 +3291,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3083,6 +3308,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3099,6 +3325,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3115,6 +3342,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3131,6 +3359,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3147,6 +3376,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3163,6 +3393,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3179,6 +3410,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3195,6 +3427,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3208,6 +3441,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3221,6 +3455,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3234,6 +3469,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3247,6 +3483,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3261,6 +3498,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -3275,6 +3513,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -3289,6 +3528,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -3303,6 +3543,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -3318,6 +3559,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -3333,6 +3575,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -3348,6 +3591,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -3363,6 +3607,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -3376,6 +3621,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3389,6 +3635,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3401,6 +3648,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -3413,6 +3661,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -3425,6 +3674,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -3437,6 +3687,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -3450,6 +3701,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3463,6 +3715,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3476,6 +3729,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3489,6 +3743,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3503,6 +3758,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3517,6 +3773,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -3532,6 +3789,7 @@
       "UNION",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -3547,6 +3805,7 @@
       "UNION",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -3559,6 +3818,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -3571,6 +3831,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -3583,6 +3844,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -3595,6 +3857,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -3608,6 +3871,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3621,6 +3885,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3636,6 +3901,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -3651,6 +3917,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -3664,6 +3931,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3677,6 +3945,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3690,6 +3959,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -3703,6 +3973,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -3716,6 +3987,7 @@
       "MIN",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -3729,6 +4001,7 @@
       "MIN",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -3741,6 +4014,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -3753,6 +4027,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -3766,6 +4041,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -3779,6 +4055,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -3795,6 +4072,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3811,6 +4089,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3825,6 +4104,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -3839,6 +4119,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -3853,6 +4134,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -3867,6 +4149,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -3883,6 +4166,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3899,6 +4183,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3913,6 +4198,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -3927,6 +4213,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -3941,6 +4228,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3955,6 +4243,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -3967,6 +4256,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -3979,6 +4269,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -3990,6 +4281,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -4001,6 +4293,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -4014,6 +4307,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -4027,6 +4321,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -4040,6 +4335,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4053,6 +4349,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4065,6 +4362,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4077,6 +4375,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4088,6 +4387,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -4099,6 +4399,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -4112,6 +4413,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4125,6 +4427,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4137,6 +4440,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4149,6 +4453,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4162,6 +4467,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4175,6 +4481,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4189,6 +4496,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4203,6 +4511,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4216,6 +4525,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4229,6 +4539,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4245,6 +4556,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4261,6 +4573,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4275,6 +4588,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -4289,6 +4603,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -4301,6 +4616,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -4313,6 +4629,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -4325,6 +4642,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4337,6 +4655,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4348,6 +4667,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -4359,6 +4679,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -4371,6 +4692,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -4383,6 +4705,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -4395,6 +4718,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4407,6 +4731,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4420,6 +4745,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4433,6 +4759,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4445,6 +4772,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4457,6 +4785,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4470,6 +4799,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4483,6 +4813,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4498,6 +4829,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4513,6 +4845,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4527,6 +4860,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -4541,6 +4875,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -4553,6 +4888,7 @@
       "MIN",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4565,6 +4901,7 @@
       "MIN",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4578,6 +4915,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4591,6 +4929,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4604,6 +4943,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4617,6 +4957,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4631,6 +4972,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4645,6 +4987,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4661,6 +5004,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4677,6 +5021,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4690,6 +5035,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -4703,6 +5049,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -4714,6 +5061,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -4725,6 +5073,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -4737,6 +5086,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4749,6 +5099,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4761,6 +5112,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4773,6 +5125,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4786,6 +5139,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4799,6 +5153,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4812,6 +5167,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4825,6 +5181,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4837,6 +5194,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4849,6 +5207,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -4863,6 +5222,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4877,6 +5237,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4890,6 +5251,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4903,6 +5265,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -4916,6 +5279,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4929,6 +5293,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4942,6 +5307,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4955,6 +5321,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -4969,6 +5336,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4983,6 +5351,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -4997,6 +5366,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5011,6 +5381,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5025,6 +5396,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -5039,6 +5411,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -5055,6 +5428,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5071,6 +5445,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5086,6 +5461,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5101,6 +5477,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5116,6 +5493,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -5131,6 +5509,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -5144,6 +5523,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -5157,6 +5537,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -5169,6 +5550,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5181,6 +5563,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5193,6 +5576,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -5205,6 +5589,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -5216,6 +5601,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -5227,6 +5613,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -5239,6 +5626,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -5251,6 +5639,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -5263,6 +5652,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -5275,6 +5665,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -5288,6 +5679,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -5301,6 +5693,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -5314,6 +5707,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5327,6 +5721,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5342,6 +5737,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5357,6 +5753,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5371,6 +5768,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -5385,6 +5783,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -5397,6 +5796,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -5409,6 +5809,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -5422,6 +5823,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -5435,6 +5837,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -5448,6 +5851,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -5461,6 +5865,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -5475,6 +5880,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5489,6 +5895,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5504,6 +5911,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -5519,6 +5927,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -5533,6 +5942,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -5547,6 +5957,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -5560,6 +5971,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5573,6 +5985,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -5586,6 +5999,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5599,6 +6013,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -5612,6 +6027,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -5625,6 +6041,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5637,6 +6054,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -5650,6 +6068,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -5665,6 +6084,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -5681,6 +6101,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5697,6 +6118,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -5711,6 +6133,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -5725,6 +6148,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -5738,6 +6162,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5752,6 +6177,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -5766,6 +6192,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -5782,6 +6209,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -5795,6 +6223,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5807,6 +6236,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5819,6 +6249,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5831,6 +6262,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5843,6 +6275,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5855,6 +6288,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -5867,6 +6301,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -5879,6 +6314,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5891,6 +6327,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5903,6 +6340,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5915,6 +6353,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5927,6 +6366,7 @@
       "MIN",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5939,6 +6379,7 @@
       "MIN",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5952,6 +6393,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5965,6 +6407,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5978,6 +6421,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -5991,6 +6435,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -6005,6 +6450,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -6019,6 +6465,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -6032,6 +6479,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -6045,6 +6493,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -6058,6 +6507,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -6071,6 +6521,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -6085,6 +6536,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -6099,6 +6551,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -6112,6 +6565,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -6125,6 +6579,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -6137,6 +6592,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -6149,6 +6605,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -6162,6 +6619,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -6175,6 +6633,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -6189,6 +6648,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -6203,6 +6663,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -6218,6 +6679,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6233,6 +6695,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6248,6 +6711,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6263,6 +6727,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6277,6 +6742,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -6291,6 +6757,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -6304,6 +6771,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -6317,6 +6785,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -6331,6 +6800,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6345,6 +6815,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6359,6 +6830,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6373,6 +6845,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6386,6 +6859,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6399,6 +6873,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6414,6 +6889,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6429,6 +6905,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6443,6 +6920,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -6457,6 +6935,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -6470,6 +6949,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6483,6 +6963,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6496,6 +6977,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6509,6 +6991,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6523,6 +7006,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -6537,6 +7021,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -6551,6 +7036,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -6565,6 +7051,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -6579,6 +7066,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -6593,6 +7081,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -6606,6 +7095,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6619,6 +7109,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6632,6 +7123,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -6644,6 +7136,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -6655,6 +7148,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -6668,6 +7162,7 @@
       "MIN",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -6680,6 +7175,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -6693,6 +7189,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -6705,6 +7202,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -6719,6 +7217,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -6734,6 +7233,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -6750,6 +7250,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6762,6 +7263,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -6775,6 +7277,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -6790,6 +7293,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -6804,6 +7308,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -6818,6 +7323,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -6831,6 +7337,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -6842,6 +7349,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -6853,6 +7361,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -6865,6 +7374,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -6877,6 +7387,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -6889,6 +7400,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -6901,6 +7413,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -6913,6 +7426,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -6925,6 +7439,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -6941,6 +7456,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6957,6 +7473,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -6970,6 +7487,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -6983,6 +7501,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -6996,6 +7515,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -7009,6 +7529,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -7023,6 +7544,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -7037,6 +7559,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -7048,6 +7571,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -7059,6 +7583,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -7074,6 +7599,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -7089,6 +7615,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -7101,6 +7628,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7113,6 +7641,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7129,6 +7658,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7145,6 +7675,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7158,6 +7689,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -7171,6 +7703,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -7186,6 +7719,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -7201,6 +7735,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -7215,6 +7750,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -7229,6 +7765,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -7245,6 +7782,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7261,6 +7799,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7277,6 +7816,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7293,6 +7833,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7309,6 +7850,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7325,6 +7867,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7339,6 +7882,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -7353,6 +7897,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -7366,6 +7911,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -7379,6 +7925,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -7395,6 +7942,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7411,6 +7959,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7426,6 +7975,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -7441,6 +7991,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -7456,6 +8007,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -7471,6 +8023,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -7483,6 +8036,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -7495,6 +8049,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -7508,6 +8063,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7521,6 +8077,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7534,6 +8091,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7547,6 +8105,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7559,6 +8118,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -7571,6 +8131,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -7587,6 +8148,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7603,6 +8165,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7615,6 +8178,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -7627,6 +8191,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -7640,6 +8205,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7653,6 +8219,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7665,6 +8232,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -7677,6 +8245,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -7690,6 +8259,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7703,6 +8273,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7718,6 +8289,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7733,6 +8305,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7749,6 +8322,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7765,6 +8339,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -7780,6 +8355,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -7795,6 +8371,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -7808,6 +8385,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -7821,6 +8399,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -7833,6 +8412,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7845,6 +8425,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7857,6 +8438,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -7869,6 +8451,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -7882,6 +8465,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -7895,6 +8479,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -7907,6 +8492,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7919,6 +8505,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7931,6 +8518,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -7943,6 +8531,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -7956,6 +8545,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -7969,6 +8559,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -7981,6 +8572,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -7993,6 +8585,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -8005,6 +8598,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8017,6 +8611,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8032,6 +8627,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -8047,6 +8643,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -8060,6 +8657,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -8073,6 +8671,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -8085,6 +8684,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8097,6 +8697,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8109,6 +8710,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8121,6 +8723,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8134,6 +8737,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -8147,6 +8751,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -8162,6 +8767,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -8177,6 +8783,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -8190,6 +8797,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -8203,6 +8811,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -8216,6 +8825,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8229,6 +8839,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8242,6 +8853,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8255,6 +8867,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8267,6 +8880,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -8279,6 +8893,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -8292,6 +8907,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -8305,6 +8921,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -8318,6 +8935,7 @@
       "MIN",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -8331,6 +8949,7 @@
       "MIN",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -8343,6 +8962,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8355,6 +8975,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8367,6 +8988,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8379,6 +9001,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8392,6 +9015,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8405,6 +9029,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8418,6 +9043,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8431,6 +9057,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8444,6 +9071,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -8457,6 +9085,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -8470,6 +9099,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -8483,6 +9113,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -8495,6 +9126,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8507,6 +9139,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8520,6 +9153,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8533,6 +9167,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8547,6 +9182,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -8561,6 +9197,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -8575,6 +9212,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -8589,6 +9227,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -8601,6 +9240,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8613,6 +9253,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -8627,6 +9268,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -8641,6 +9283,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -8654,6 +9297,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -8667,6 +9311,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -8681,6 +9326,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -8695,6 +9341,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -8707,6 +9354,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -8719,6 +9367,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -8731,6 +9380,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -8743,6 +9393,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -8754,6 +9405,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -8765,6 +9417,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -8777,6 +9430,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -8789,6 +9443,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -8802,6 +9457,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -8815,6 +9471,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -8828,6 +9485,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -8841,6 +9499,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -8853,6 +9512,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8865,6 +9525,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8878,6 +9539,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8891,6 +9553,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -8904,6 +9567,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -8917,6 +9581,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -8931,6 +9596,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -8945,6 +9611,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -8959,6 +9626,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -8973,6 +9641,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -8987,6 +9656,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -9001,6 +9671,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -9014,6 +9685,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -9027,6 +9699,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -9040,6 +9713,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -9053,6 +9727,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -9068,6 +9743,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -9083,6 +9759,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -9097,6 +9774,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -9111,6 +9789,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -9123,6 +9802,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -9135,6 +9815,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -9147,6 +9828,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -9159,6 +9841,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -9173,6 +9856,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -9187,6 +9871,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -9200,6 +9885,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9213,6 +9899,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9225,6 +9912,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9237,6 +9925,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -9248,6 +9937,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -9261,6 +9951,7 @@
       "MIN",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9274,6 +9965,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9286,6 +9978,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -9298,6 +9991,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -9313,6 +10007,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -9329,6 +10024,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -9342,6 +10038,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9357,6 +10054,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -9373,6 +10071,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -9386,6 +10085,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -9400,6 +10100,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -9413,6 +10114,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -9425,6 +10127,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -9437,6 +10140,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -9450,6 +10154,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9463,6 +10168,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9476,6 +10182,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9489,6 +10196,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9501,6 +10209,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -9513,6 +10222,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -9526,6 +10236,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -9539,6 +10250,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -9554,6 +10266,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -9569,6 +10282,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -9581,6 +10295,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -9593,6 +10308,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -9605,6 +10321,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -9617,6 +10334,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -9630,6 +10348,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9643,6 +10362,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9657,6 +10377,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -9671,6 +10392,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -9685,6 +10407,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9699,6 +10422,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9712,6 +10436,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9725,6 +10450,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9738,6 +10464,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9751,6 +10478,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9764,6 +10492,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9777,6 +10506,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9791,6 +10521,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9805,6 +10536,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9818,6 +10550,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9831,6 +10564,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9845,6 +10579,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9859,6 +10594,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -9873,6 +10609,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -9887,6 +10624,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -9901,6 +10639,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -9915,6 +10654,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -9931,6 +10671,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -9947,6 +10688,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -9963,6 +10705,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -9979,6 +10722,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -9994,6 +10738,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -10009,6 +10754,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -10023,6 +10769,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -10037,6 +10784,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -10051,6 +10799,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -10065,6 +10814,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -10080,6 +10830,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -10095,6 +10846,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -10109,6 +10861,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -10123,6 +10876,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -10137,6 +10891,7 @@
       "UNION",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -10151,6 +10906,7 @@
       "UNION",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -10168,6 +10924,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -10185,6 +10942,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -10201,6 +10959,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -10217,6 +10976,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -10232,6 +10992,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -10247,6 +11008,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN_ORDER",
     "source": "spider"
   },
   {
@@ -10261,6 +11023,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -10275,6 +11038,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -10291,6 +11055,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10307,6 +11072,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10323,6 +11089,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10339,6 +11106,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10352,6 +11120,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -10365,6 +11134,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -10380,6 +11150,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -10395,6 +11166,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -10408,6 +11180,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10421,6 +11194,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10434,6 +11208,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10447,6 +11222,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10460,6 +11236,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10473,6 +11250,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10486,6 +11264,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -10499,6 +11278,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -10512,6 +11292,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -10525,6 +11306,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -10538,6 +11320,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -10551,6 +11334,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -10567,6 +11351,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10583,6 +11368,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10597,6 +11383,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -10611,6 +11398,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -10624,6 +11412,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -10637,6 +11426,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -10650,6 +11440,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -10663,6 +11454,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -10678,6 +11470,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -10693,6 +11486,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -10708,6 +11502,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10723,6 +11518,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -10738,6 +11534,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -10753,6 +11550,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -10768,6 +11566,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -10783,6 +11582,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -10796,6 +11596,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -10809,6 +11610,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -10822,6 +11624,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -10835,6 +11638,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -10848,6 +11652,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -10861,6 +11666,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -10874,6 +11680,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -10887,6 +11694,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -10899,6 +11707,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -10911,6 +11720,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -10925,6 +11735,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -10939,6 +11750,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -10952,6 +11764,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -10965,6 +11778,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -10980,6 +11794,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -10995,6 +11810,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11008,6 +11824,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11021,6 +11838,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11036,6 +11854,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11051,6 +11870,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11065,6 +11885,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11079,6 +11900,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11091,6 +11913,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11103,6 +11926,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11115,6 +11939,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -11127,6 +11952,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -11139,6 +11965,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -11151,6 +11978,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -11163,6 +11991,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -11175,6 +12004,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -11187,6 +12017,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11199,6 +12030,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11213,6 +12045,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11227,6 +12060,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11240,6 +12074,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11253,6 +12088,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11265,6 +12101,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -11277,6 +12114,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -11290,6 +12128,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -11303,6 +12142,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -11315,6 +12155,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -11327,6 +12168,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -11342,6 +12184,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -11357,6 +12200,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -11373,6 +12217,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11389,6 +12234,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11402,6 +12248,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -11415,6 +12262,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -11428,6 +12276,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11441,6 +12290,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11455,6 +12305,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11469,6 +12320,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11484,6 +12336,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11499,6 +12352,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11513,6 +12367,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -11527,6 +12382,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -11540,6 +12396,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -11553,6 +12410,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -11566,6 +12424,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11579,6 +12438,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11594,6 +12454,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -11609,6 +12470,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -11621,6 +12483,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11633,6 +12496,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11644,6 +12508,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -11655,6 +12520,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -11666,6 +12532,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -11677,6 +12544,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -11689,6 +12557,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -11701,6 +12570,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -11713,6 +12583,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -11725,6 +12596,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -11737,6 +12609,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -11749,6 +12622,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -11762,6 +12636,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11775,6 +12650,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -11788,6 +12664,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11801,6 +12678,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11816,6 +12694,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11831,6 +12710,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11845,6 +12725,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -11859,6 +12740,7 @@
       "HAVING",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -11872,6 +12754,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11885,6 +12768,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11899,6 +12783,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11913,6 +12798,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11929,6 +12815,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11945,6 +12832,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -11960,6 +12848,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -11975,6 +12864,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -11988,6 +12878,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12001,6 +12892,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12015,6 +12907,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12029,6 +12922,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12041,6 +12935,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12053,6 +12948,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12066,6 +12962,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12079,6 +12976,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12091,6 +12989,7 @@
       "INTERSECT",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12103,6 +13002,7 @@
       "INTERSECT",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12116,6 +13016,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12129,6 +13030,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12142,6 +13044,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12155,6 +13058,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12169,6 +13073,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12183,6 +13088,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12199,6 +13105,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12215,6 +13122,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12230,6 +13138,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -12245,6 +13154,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -12261,6 +13171,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -12277,6 +13188,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -12291,6 +13203,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12305,6 +13218,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12320,6 +13234,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -12335,6 +13250,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -12351,6 +13267,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -12367,6 +13284,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -12379,6 +13297,7 @@
       "INTERSECT",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12391,6 +13310,7 @@
       "INTERSECT",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12405,6 +13325,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -12419,6 +13340,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -12436,6 +13358,7 @@
       "UNION",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12453,6 +13376,7 @@
       "UNION",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12470,6 +13394,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -12487,6 +13412,7 @@
       "SUM",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -12500,6 +13426,7 @@
       "SELECT",
       "UNION"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12513,6 +13440,7 @@
       "SELECT",
       "UNION"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12526,6 +13454,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12539,6 +13468,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -12555,6 +13485,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12571,6 +13502,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12586,6 +13518,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -12601,6 +13534,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -12617,6 +13551,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12633,6 +13568,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12649,6 +13585,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12665,6 +13602,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12681,6 +13619,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12697,6 +13636,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12713,6 +13653,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12729,6 +13670,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -12744,6 +13686,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -12759,6 +13702,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -12774,6 +13718,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -12789,6 +13734,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -12801,6 +13747,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12813,6 +13760,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12825,6 +13773,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12837,6 +13786,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12849,6 +13799,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12861,6 +13812,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12873,6 +13825,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12885,6 +13838,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12902,6 +13856,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -12919,6 +13874,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -12932,6 +13888,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12945,6 +13902,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12958,6 +13916,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12971,6 +13930,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -12985,6 +13945,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -12999,6 +13960,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -13011,6 +13973,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -13023,6 +13986,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -13034,6 +13998,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -13045,6 +14010,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -13058,6 +14024,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -13071,6 +14038,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -13084,6 +14052,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -13097,6 +14066,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -13110,6 +14080,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -13123,6 +14094,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -13136,6 +14108,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -13149,6 +14122,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -13163,6 +14137,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -13177,6 +14152,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -13190,6 +14166,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -13203,6 +14180,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -13218,6 +14196,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -13233,6 +14212,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -13248,6 +14228,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -13263,6 +14244,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -13278,6 +14260,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -13293,6 +14276,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -13305,6 +14289,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -13317,6 +14302,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -13329,6 +14315,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -13341,6 +14328,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -13353,6 +14341,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -13365,6 +14354,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -13376,6 +14366,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -13387,6 +14378,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -13399,6 +14391,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -13411,6 +14404,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -13422,6 +14416,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -13433,6 +14428,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -13445,6 +14441,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -13457,6 +14454,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -13470,6 +14468,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -13483,6 +14482,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -13495,6 +14495,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -13507,6 +14508,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -13519,6 +14521,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -13531,6 +14534,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -13542,6 +14546,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -13553,6 +14558,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "SIMPLE",
     "source": "spider"
   },
   {
@@ -13565,6 +14571,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -13577,6 +14584,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -13589,6 +14597,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -13601,6 +14610,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SELECT_WHERE",
     "source": "spider"
   },
   {
@@ -13614,6 +14624,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -13627,6 +14638,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "ORDER_LIMIT",
     "source": "spider"
   },
   {
@@ -13640,6 +14652,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -13653,6 +14666,7 @@
       "GROUP BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -13668,6 +14682,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -13683,6 +14698,7 @@
       "ORDER BY",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -13696,6 +14712,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -13709,6 +14726,7 @@
       "MAX",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -13721,6 +14739,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -13733,6 +14752,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -13747,6 +14767,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -13761,6 +14782,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -13776,6 +14798,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -13791,6 +14814,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_HAVING",
     "source": "spider"
   },
   {
@@ -13805,6 +14829,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -13819,6 +14844,7 @@
       "SELECT",
       "SUM"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -13833,6 +14859,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -13847,6 +14874,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "NESTED",
     "source": "spider"
   },
   {
@@ -13860,6 +14888,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -13873,6 +14902,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   },
   {
@@ -13885,6 +14915,7 @@
       "FROM",
       "SELECT"
     ],
+    "sql_class": "AGG_ONLY",
     "source": "spider"
   },
   {
@@ -13898,6 +14929,7 @@
       "SELECT",
       "WHERE"
     ],
+    "sql_class": "JOIN",
     "source": "spider"
   },
   {
@@ -13911,6 +14943,7 @@
       "JOIN",
       "SELECT"
     ],
+    "sql_class": "GROUP_BY",
     "source": "spider"
   },
   {
@@ -13924,6 +14957,7 @@
       "UNION",
       "WHERE"
     ],
+    "sql_class": "SET_OP",
     "source": "spider"
   }
 ]

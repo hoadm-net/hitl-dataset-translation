@@ -1,0 +1,103 @@
+{
+  "dataset": "spider",
+  "train_n": 8659,
+  "all_strata": 10,
+  "splits": [
+    {
+      "label": "train (full)",
+      "n": 8659,
+      "unique_dbs": 146,
+      "hardness_distribution": {
+        "medium": 6580,
+        "easy": 1413,
+        "extra": 557,
+        "hard": 109
+      },
+      "unique_strata": 10
+    },
+    {
+      "label": "pool_greedy (45%)",
+      "n": 3897,
+      "unique_dbs": 146,
+      "hardness_distribution": {
+        "medium": 2809,
+        "easy": 898,
+        "hard": 29,
+        "extra": 161
+      },
+      "unique_strata": 10
+    },
+    {
+      "label": "L1_greedy",
+      "n": 433,
+      "unique_dbs": 146,
+      "hardness_distribution": {
+        "medium": 315,
+        "easy": 107,
+        "hard": 1,
+        "extra": 10
+      },
+      "unique_strata": 10
+    },
+    {
+      "label": "L2_greedy",
+      "n": 866,
+      "unique_dbs": 146,
+      "hardness_distribution": {
+        "medium": 580,
+        "easy": 270,
+        "hard": 2,
+        "extra": 14
+      },
+      "unique_strata": 10
+    },
+    {
+      "label": "L3_greedy",
+      "n": 1299,
+      "unique_dbs": 146,
+      "hardness_distribution": {
+        "medium": 846,
+        "easy": 424,
+        "hard": 2,
+        "extra": 27
+      },
+      "unique_strata": 10
+    },
+    {
+      "label": "L4_greedy",
+      "n": 1732,
+      "unique_dbs": 146,
+      "hardness_distribution": {
+        "medium": 1152,
+        "easy": 535,
+        "hard": 4,
+        "extra": 41
+      },
+      "unique_strata": 10
+    },
+    {
+      "label": "L5_greedy",
+      "n": 2165,
+      "unique_dbs": 146,
+      "hardness_distribution": {
+        "medium": 1474,
+        "easy": 621,
+        "hard": 10,
+        "extra": 60
+      },
+      "unique_strata": 10
+    },
+    {
+      "label": "remaining (55%)",
+      "n": 4762,
+      "unique_dbs": 96,
+      "hardness_distribution": {
+        "medium": 3771,
+        "extra": 396,
+        "easy": 515,
+        "hard": 80
+      },
+      "unique_strata": 10
+    }
+  ]
+}

@@ -38,7 +38,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from scripts.utils.sql_validator import extract_sql_patterns
+from scripts.utils.sql_validator import extract_sql_patterns, classify_sql
 
 RAW_DIR = PROJECT_ROOT / "data" / "bird"
 OUT_DIR = PROJECT_ROOT / "data" / "bird" / "extracted"
@@ -50,13 +50,15 @@ def load_raw(path: Path) -> list[dict]:
 
 
 def build_sample(raw: dict, idx: int, split: str) -> dict:
+    sql = raw["SQL"]
     return {
         "id": f"bird-{split}-{idx:05d}",
         "db_id": raw["db_id"],
         "question": raw["question"],
         "evidence": raw.get("evidence", ""),
-        "SQL": raw["SQL"],
-        "sql_patterns": extract_sql_patterns(raw["SQL"]),
+        "SQL": sql,
+        "sql_patterns": extract_sql_patterns(sql),
+        "sql_class": classify_sql(sql),
         "difficulty": raw.get("difficulty", None),  # present in dev, absent in train
     }
 
